@@ -1,0 +1,91 @@
+{
+    "author": "BV Designs",
+    "dependencies": {
+        "pebble-battery-bar": "^1.0.8",
+        "pebble-clay": "^1.0.0",
+        "pebble-fctx": "^1.2.0"
+    },
+    "keywords": [],
+    "name": "project-2",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Project#2",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "INVERT",
+            "SECONDS",
+            "BACKGROUND_COLOUR",
+            "FOREGROUND_COLOUR",
+            "SECOND_HAND_COLOUR",
+            "BT_VIBRATE",
+            "RIGHT_INFORMATION_BOX",
+            "DATE_FORMAT",
+            "TEMPERATURE_UNIT",
+            "TEMPERATURE",
+            "CONDITIONS",
+            "LOCATION",
+            "TOP_INFORMATION_BOX",
+            "BATTERY_BAR",
+            "HEALTH",
+            "TEMPERATURE_HIGH",
+            "TEMPERATURE_LOW",
+            "TICK_MARKS",
+            "BOTTOM_INFORMATION_BOX",
+            "CUSTOM_TEXT",
+            "LOW_BATTERY_MODE",
+            "LOW_BATTERY_LEVEL"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "data/LiberationSans-Bold.ffont",
+                    "name": "LIBERATION_SANS_FFONT",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "raw"
+                },
+                {
+                    "file": "fonts/LiberationSans-Bold.ttf",
+                    "name": "LIBERATION_SANS_BOLD_28",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/LiberationSans-Bold.ttf",
+                    "name": "LIBERATION_SANS_BOLD_16",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/download28x28.png",
+                    "menuIcon": true,
+                    "name": "MENU_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/download.png",
+                    "name": "MENU_IMAGE",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "34066ace-e43e-4f18-8c44-29ee14fb8590",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
